@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Path Finder</title>
+</head>
 
-## Available Scripts
+<body>
+  <!-- PROJECT LOGO -->
+  <p align="center">
+    <img src="pathfinder-logo.png" alt="Pathfinder Logo" width="80" height="80">
+  </p>
 
-In the project directory, you can run:
+  <h1 align="center">Path Finder</h1>
 
-### `npm start`
+  <p align="center">
+    A visual pathfinding application built with React, allowing users to explore various algorithms to find the
+    shortest path on a grid.
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <!-- TABLE OF CONTENTS -->
+  <details open="open">
+    <summary>Table of Contents</summary>
+    <ol>
+      <li><a href="#about-the-project">About The Project</a></li>
+      <li><a href="#instructions">Instructions</a></li>
+      <li><a href="#getting-started">Getting Started</a></li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#contributing">Contributing</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <!-- ABOUT THE PROJECT -->
+  <h2 id="about-the-project">About The Project</h2>
 
-### `npm test`
+  <img src="pathfinder-screenshot.png" alt="Pathfinder Screenshot">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <p>
+    Path Finder is a web application that provides a user-friendly interface for experimenting with pathfinding
+    algorithms. Users can mark start and goal cells, add obstacles, and visualize the algorithms finding the shortest
+    path on a grid.
+  </p>
 
-### `npm run build`
+  <!-- INSTRUCTIONS -->
+  <h2 id="instructions">Instructions</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <ol>
+    <li>Click on a cell to mark it as the start cell.</li>
+    <li>Click on another cell to mark it as the goal cell.</li>
+    <li>Click on additional cells to mark them as obstacles.</li>
+    <li>Click on a marked cell to remove it (start cell, goal cell, or obstacle).</li>
+    <li>Click and drag the mouse to add or remove obstacles by hovering over cells.</li>
+    <li>Adjust the number of rows and columns using the input fields.</li>
+    <li>Click "Find Path" to start the pathfinding algorithm.</li>
+  </ol>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <p>
+    <small>- By <strong>Tushar Singh</strong></small>
+  </p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <!-- GETTING STARTED -->
+  <h2 id="getting-started">Getting Started</h2>
 
-### `npm run eject`
+  <ol>
+    <li>Clone the repo
+      <pre><code>git clone https://github.com/tusharsingh110/Pathfinder.git</code></pre>
+    </li>
+    <li>Install dependencies
+      <pre><code>npm install</code></pre>
+    </li>
+    <li>Run the app
+      <pre><code>npm start</code></pre>
+    </li>
+  </ol>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  <!-- USAGE -->
+  <h2 id="usage">Usage</h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <p>Explore the different functionalities and algorithms provided in the application to understand and visualize how
+    pathfinding works.</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <!-- CONTRIBUTING -->
+  <h2 id="contributing">Contributing</h2>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  <p>Contributions are what make the open source community such an amazing place to be. Any contributions you make are
+    greatly appreciated.</p>
 
-## Learn More
+  <ol>
+    <li>Fork the Project</li>
+    <li>Create your Feature Branch (<code>git checkout -b feature/AmazingFeature</code>)</li>
+    <li>Commit your Changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
+    <li>Push to the Branch (<code>git push origin feature/AmazingFeature</code>)</li>
+    <li>Open a Pull Request</li>
+  </ol>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <!-- LICENSE -->
+  <h2 id="license">License</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  <p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>
 
-### Code Splitting
+  <!-- CONTACT -->
+  <h2 id="contact">Contact</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  <p>Tushar Singh - <a href="https://tusharsingh110.github.io/My-Portfolio">Portfolio</a></p>
 
-### Analyzing the Bundle Size
+  <p>Project Link: <a href="https://github.com/tusharsingh110/Pathfinder">https://github.com/tusharsingh110/Pathfinder</a>
+  </p>
+</body>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</html>
