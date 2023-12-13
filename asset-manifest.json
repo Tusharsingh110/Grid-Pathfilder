@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Grid-Pathfinder/static/css/main.d404995c.css",
+    "main.js": "/Grid-Pathfinder/static/js/main.7137beb6.js",
+    "index.html": "/Grid-Pathfinder/index.html",
+    "main.d404995c.css.map": "/Grid-Pathfinder/static/css/main.d404995c.css.map",
+    "main.7137beb6.js.map": "/Grid-Pathfinder/static/js/main.7137beb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d404995c.css",
+    "static/js/main.7137beb6.js"
+  ]
+}
