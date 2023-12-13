@@ -2,7 +2,8 @@
 <body>
   <!-- PROJECT LOGO -->
   <p align="center">
-    <img src="pathfinder-logo.png" alt="Pathfinder Logo" width="80" height="80">
+      <a href="https://Tusharsingh110.github.io/Grid-Pathfinder"><img src="https://i.postimg.cc/zGWKCGQD/favico-path.png" alt="Grid-Pathfinder Logo" width="100" height="80"/></a>
+
   </p>
 
   <h1 align="center">Path Finder</h1>
@@ -29,7 +30,7 @@
   <!-- ABOUT THE PROJECT -->
   <h2 id="about-the-project">About The Project</h2>
 
-  <img src="pathfinder-screenshot.png" alt="Pathfinder Screenshot">
+  <img src="https://i.postimg.cc/rsjtpfQv/pathfinder.png" alt="Pathfinder Screenshot">
 
   <p>
     Path Finder is a web application that provides a user-friendly interface for experimenting with pathfinding
@@ -99,6 +100,6 @@
 
   <p>Tushar Singh - <a href="https://tusharsingh110.github.io/My-Portfolio">Portfolio</a></p>
 
-  <p>Project Link: <a href="https://github.com/tusharsingh110/Pathfinder">https://github.com/tusharsingh110/Pathfinder</a>
+  <p>Project Link: <a href="https://github.com/tusharsingh110/Grid-Pathfinder">https://github.com/tusharsingh110/Grid-Pathfinder</a>
   </p>
 </body>

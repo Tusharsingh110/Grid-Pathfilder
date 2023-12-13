@@ -180,7 +180,7 @@ const Pathfinder = () => {
               Click "Find Path" to start the pathfinding algorithm.
             </li>
           </ol>
-          <small className="text-center">-By <em><u>Tushar Singh</u></em></small>
+          <small className="text-center">-By <a href="https://tusharsingh110.github.io/My-Portfolio"></a> <em><u>Tushar Singh</u></em></small>
         </div>
 
         <div className="md:w-5/6 px-4 bg-[#fafafa] min-h-screen py-4 flex flex-col">
